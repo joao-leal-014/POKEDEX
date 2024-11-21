@@ -1,0 +1,106 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #b3b3b3;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase; /* Transforma todo o texto em maiúsculas */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.barra-busca {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.barra-busca form {
+    position: relative;
+    display: flex;
+}
+
+.barra-busca form input {
+    height: 38px;
+    padding-left: 15px;
+    padding-right: 70px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+}
+
+.barra-busca form button {
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+}
+
+.cartao-pokemon {
+    text-align: center;
+}
+
+.imagem-pokemon {
+    width: 150px;
+    height: auto;
+}
+
+.detalhes-pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+}
+
+.detalhes-pokemon button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+}
+
+.detalhes-pokemon button:hover {
+    background-color: #0056b3;
+}
+
+.carregando {
+    text-align: center;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+}
